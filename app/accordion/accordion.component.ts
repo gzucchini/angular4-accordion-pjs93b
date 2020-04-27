@@ -11,7 +11,7 @@ import { fadeAnimation } from '../animations';
     trigger('testAnimation', [
       transition('* => *', [
         query('*', style({ opacity: 0 })),
-        query('*', stagger('50ms', [animate('1s', style({ opacity: 1 }))]))
+        query('*', stagger('50ms', [animate('.51s', style({ opacity: 1 }))]))
       ])
     ])
     /*

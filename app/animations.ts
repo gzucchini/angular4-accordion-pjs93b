@@ -5,6 +5,6 @@ export const fadeAnimation = animation([
     style({opacity: '0'}),
     stagger('500ms', animate('{{ duration }}', style({ opacity: '{{ to }}' })))
   ])
-  
-], { params: { duration: '1s', to: 1 }});
+    
+], { params: { duration: '.51s', to: 1 }});
 
