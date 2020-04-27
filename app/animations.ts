@@ -3,8 +3,8 @@ import { animation, trigger, stagger, state, transition, animate, style, group, 
 export const fadeAnimation = animation([
   query(':enter', [
     style({opacity: '0'}),
-    stagger('500ms', animate('{{ duration }}', style({ opacity: '{{ to }}' })))
+    stagger('100ms', animate('{{ duration }}', style({ opacity: '{{ to }}' })))
   ])
     
-], { params: { duration: '.51s', to: 1 }});
+], { params: { duration: '.21s', to: 1 }});
 

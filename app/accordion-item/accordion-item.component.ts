@@ -9,7 +9,7 @@ import { animation, trigger, state, transition, animate, style, group, query, us
     trigger('accordionItemContentAnimation',[
       state('isOpen', style({height: '*'})),
       state('isClose', style({height: 0})),
-      transition('isOpen <=> isClose', group([animate('500ms')])),      
+      transition('isOpen <=> isClose', group([animate('200ms')])),      
     ])
   ]
 })
